@@ -10,7 +10,7 @@ print('나이는',age) # 문자열이 "" , '' 둘다 사용가능
 print('세율은',taxRate) 
 print('지수값은',highFloats)
 
-#틀수 숫자형
+#특수 숫자형
 binVal = 0b11111111 # 255 (컴퓨터 때문)
 octVal = 0o11 # 9 1~7 10(8) ("")
 hexVal = 0xFF # 255 0~9ABCDEF ("")
