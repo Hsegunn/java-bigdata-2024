@@ -1,2 +1,2 @@
-print('Hello, Phthon!')
-print('Life is short. You need Python.')
+print('Hello, Python!')
+print('Life is too short. You need Python.')
