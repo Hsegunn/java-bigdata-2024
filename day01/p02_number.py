@@ -12,7 +12,7 @@ print('지수값은',highFloats)
 
 #특수 숫자형
 binVal = 0b11111111 # 255 (컴퓨터 때문)
-octVal = 0o11 # 9 1~7 10(8) ("")
+octVal = 0o11 # 9 1~7 10(8) ("") 
 hexVal = 0xFF # 255 0~9ABCDEF ("")
 print('2진수',binVal, '8진수',octVal, '16진수', hexVal)
 
