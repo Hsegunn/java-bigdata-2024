@@ -40,7 +40,7 @@ list(map(lambda a: a*3, [1, 2, 3, 4]))
 # Q7
 print('Q7')
 a = [-8, 2, 7, 5, -3, 5, 0, 1]
-min(a)+max(a)
+print(min(a)+max(a))
 # Q11
 print('Q11')
 import datetime
