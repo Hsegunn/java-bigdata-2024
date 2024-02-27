@@ -97,4 +97,7 @@
 
     ![주소록앱](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata01.gif)
 
+    - windows App 만들기(PyQt 5)
+
+    ![QtApp](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata02.png)
 ## 6일차

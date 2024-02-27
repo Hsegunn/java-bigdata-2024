@@ -1,4 +1,4 @@
-# file: p33_unicode.py
+# file: p34_unicode.py
 # desc: 아스키, 유니코드 설명
 
 a = 'Life is short, you need python'

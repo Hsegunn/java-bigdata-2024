@@ -1,4 +1,4 @@
-# file: p34_addrBook.py
+# file: p35_addrBook.py
 # desc: 콘솔 주소록 프로그램
 import os 
 

@@ -1,4 +1,4 @@
-# file: p32_osDir.py
+# file: p33_osDir.py
 # desc: 운영체제 디렉토리 확인
 
 import os # OS에서 필요한 모듈
