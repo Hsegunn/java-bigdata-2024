@@ -59,19 +59,24 @@ class qtApp(QWidget):
         self.tblSearchResult.setHorizontalHeaderLabels(['기사제목','뉴스링크','게시일자'])
 
         n = 0
-        for post in result:
-            self.tblSearchResult.setItem(n,0,QTableWidgetItem(post['title']))
+        for post in result: 
+            # html 태그, 특수문자를 삭제해야함 (<b>ㅇㅇㅇ</b>, &lt;[<],&gt;[>].&quot;[""], &nbsp;[ ])
+            title = str(post['title']).replace('<b>','').replace('</b>','').replace('&quot;','"')
+
+            self.tblSearchResult.setItem(n,0,QTableWidgetItem(title))
             self.tblSearchResult.setItem(n,1,QTableWidgetItem(post['link']))
-            tempDates = str(post['pubDate']).split(' ') # 내일 공부
+            # 현재 날짜 Thu, 29 Feb 2024 09:00:00 +09:00 를 2024-02-29로 변경하는 작업
+            tempDates = str(post['pubDate']).split(' ') 
             year = tempDates[3]
-            month = time.strptime(tempDates[2], '%b').tm_mon
-            month = f'{month:02d}'
+            month = time.strptime(tempDates[2], '%b').tm_mon # Feb, Mar 같은 단축이름을 2,3월에 대한 숫자로 변경하는 로직
+            month = f'{month:02d}' # 월에 대한 두자리 만들 때 01,02
             day = tempDates[1]
             date = f'{year}-{month}-{day}'
+            # 여기까지
             self.tblSearchResult.setItem(n,2,QTableWidgetItem(date))
             n += 1
 
-        self.tblSearchResult.setColumnWidth(0,465)
+        self.tblSearchResult.setColumnWidth(0,435) 
         self.tblSearchResult.setColumnWidth(1,200)
         self.tblSearchResult.setEditTriggers(QAbstractItemView.NoEditTriggers) # 칼럼 더블클릭 금지
 
