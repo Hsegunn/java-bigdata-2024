@@ -138,8 +138,19 @@
     - 슬랙 webhook으로 모바일 메세지 전송
       
     <!-- ![슬랙](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata08.png) -->
+    <!-- html 태그로 이미지를 삽입하면 문제없음 -->
     <img src = "https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata08.png" width="300">
+    
+    - Tesseract 프로그램으로 이미지에서 글자 추출 (인식율울 높이려면 직접 트레이닝 데이터를 생성해야 함)
 
+    ![구글번역](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata09.png)
+
+## 9일차
+- 파이썬 학습
+  - 이미지 처리 OpenCV
+  - 플라스크 웹서버
+  - 그림에디터 만들기
+  - Jupyter Notebook 사용법 (빅데이터 분석, 코딩 테스트)
 
 
 
