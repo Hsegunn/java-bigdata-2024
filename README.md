@@ -102,34 +102,35 @@
     ![QtApp](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata02.png)
     
 ## 6일차 (24.02,28)
-  - 파이썬 학습
-    - PyQt5 학습 이어서
-      - QWidget 자식 클래스 종류 학습
+- 파이썬 학습
+  - PyQt5 학습 이어서
+    - QWidget 자식 클래스 종류 학습
       
-      ![QtApp](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata03.png)
+    ![QtApp](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata03.png)
 
-      -  Naver 뉴스API로 검색 앱 만들기 
+    -  Naver 뉴스API로 검색 앱 만들기 
 
-      ![NaverApp](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata04.png)
+    ![NaverApp](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata04.png)
 
 ## 7일차
-  - 파이썬 학습
-    - PyQt5 이어서
-      - Naver 뉴스 API 검색 앱 마무리
-    - json 학습
-    - PyQt5
-      - 스레드 개념과 학습
+- 파이썬 학습
+  - PyQt5 이어서
+    - Naver 뉴스 API 검색 앱 마무리
+  - json 학습
+  - PyQt5
+    - 스레드 개념과 학습
 
-      ![스레드](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata05.png)
+    ![스레드](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata05.png)
 
-      - TTS
-      - QRcode 생성기
+  - 파이썬 으용
+    - TTS
+    - QRcode 생성기
 
-      ![QR](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata06.png)
+    ![QR](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata06.png)
 
-      - 구글 번역기앱
+    - 구글 번역기앱
 
-      ![구글번역](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata07.png)
+    ![구글번역](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata07.png)
 
 ## 8일차
 - 파이썬 학습
@@ -148,8 +149,18 @@
 ## 9일차
 - 파이썬 학습
   - 이미지 처리 OpenCV
-  - 플라스크 웹서버
-  - 그림에디터 만들기
+
+  ![얼굴인식](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata10.gif)
+
+  - [Flask](https://flask-docs-kr.readthedocs.io/ko/latest/index.html),
+    [Django](https://developer.mozilla.org/ko/docs/Learn/Server-side/Django) 웹서버
+
+  - 그림에디터 만들기(with PyQt5)
+
+  ![얼굴인식](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata11.gif)
+
+## 10일차
+  - 메모장 만들기
   - Jupyter Notebook 사용법 (빅데이터 분석, 코딩 테스트)
 
 
