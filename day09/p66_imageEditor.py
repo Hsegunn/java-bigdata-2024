@@ -55,8 +55,6 @@ class WinApp(QMainWindow): # QWidget 아님
         self.action_About.triggered.connect(self.actionAboutClicked)
         # 변환 메뉴 추가
         self.action_Grayscale.triggered.connect(self.actionGrayscaleClicked)
-        self.action_Blur.triggered.connect(self.actionBlurClicked)
-        
     def actionBlurClicked(self):
         # tmpPath = './day09/temp.png'
         tmpPath = './temp.png'
