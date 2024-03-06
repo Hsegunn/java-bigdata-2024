@@ -79,10 +79,10 @@
       <string>변환(&amp;T)</string>
      </property>
      <addaction name="action_Grayscale"/>
+     <addaction name="action_Blur"/>
     </widget>
     <addaction name="menu_P"/>
     <addaction name="menu_T_2"/>
-    <addaction name="action_Blur"/>
    </widget>
    <widget class="QMenu" name="menu_H">
     <property name="title">
