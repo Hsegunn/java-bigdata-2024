@@ -162,10 +162,7 @@
 ## 10일차
   - 그림에디터 완성(OpenCV 그레이스케일, 블러기능 추가)
 
-    
-
     https://github.com/Hsegunn/java-bigdata-2024/assets/144028237/d15c0fc1-0da1-4fff-86e0-f88b902719fb
-
 
     
   - 실행파일 만들기
