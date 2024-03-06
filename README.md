@@ -160,6 +160,15 @@
   ![얼굴인식](https://raw.githubusercontent.com/Hsegunn/java-bigdata-2024/main/images/bigdata11.gif)
 
 ## 10일차
+  - 그림에디터 완성(OpenCV 그레이스케일, 블러기능 추가)
+  - 실행파일 만들기
+    - PyInstaller 모듈설치
+    ```shell
+    > pip install pyinstaller
+    > pyinstaller -w -F pythonfile.py
+    ```
+    - -w는 윈도우창만 실행 콘솔창 삭제, -F _internal 폴더 생성안되도록, oneFile로 만들기
+    - 실패, 재성생시 build, dist폴더 삭제, pythonfile.spec 삭제 뒤 다시 명령어 실행
   - 메모장 만들기
   - Jupyter Notebook 사용법 (빅데이터 분석, 코딩 테스트)
 
