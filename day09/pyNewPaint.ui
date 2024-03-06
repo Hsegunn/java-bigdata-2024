@@ -82,6 +82,7 @@
     </widget>
     <addaction name="menu_P"/>
     <addaction name="menu_T_2"/>
+    <addaction name="action_Blur"/>
    </widget>
    <widget class="QMenu" name="menu_H">
     <property name="title">
@@ -189,6 +190,11 @@
   <action name="action_Grayscale">
    <property name="text">
     <string>그레이스케일(&amp;G)</string>
+   </property>
+  </action>
+  <action name="action_Blur">
+   <property name="text">
+    <string>블러(&amp;B)</string>
    </property>
   </action>
  </widget>

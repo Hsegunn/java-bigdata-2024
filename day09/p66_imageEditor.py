@@ -4,6 +4,10 @@
 qrc 파일을 사용하려면
 > pyrcc5 "resources.qrc" -o "resources_rc.py"
 '''
+'''
+imutils 
+> pip install imutils
+'''
 
 import sys
 from PyQt5 import uic
@@ -16,7 +20,7 @@ from PyQt5.QtWidgets import QWidget
 # 리소스 파일 추가
 import resources_rc
 # OpenCV 추가
-import cv2
+import cv2, imutils
 
 class WinApp(QMainWindow): # QWidget 아님
     def __init__(self) -> None:
@@ -51,6 +55,17 @@ class WinApp(QMainWindow): # QWidget 아님
         self.action_About.triggered.connect(self.actionAboutClicked)
         # 변환 메뉴 추가
         self.action_Grayscale.triggered.connect(self.actionGrayscaleClicked)
+        self.action_Blur.triggered.connect(self.actionBlurClicked)
+        
+    def actionBlurClicked(self):
+        # tmpPath = './day09/temp.png'
+        tmpPath = './temp.png'
+        pixmap = self.lblCanvas.pixmap() # 라벨에 있는 그림을 pixmap 변수에 저장
+        pixmap.save(tmpPath)
+        image = cv2.imread(tmpPath)
+        blur = cv2.blur(image, (10,10))
+        blurImg = QImage(blur, blur.shape[1], blur.shape[0], blur.strides[0], QImage.Format_BGR888)
+        self.lblCanvas.setPixmap(QPixmap.fromImage(blurImg))
 
     def actionGrayscaleClicked(self):
         # temp.png와 같은 형태로 임시 이미지저장
